@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-I do bioinformatics in the [CeMEB](http://www.cemeb.science.gu.se/?languageId=100001&disableRedirect=true&returnUrl=http%3A%2F%2Fwww.cemeb.science.gu.se%2Fcemeb_sv%2F) research platform at the [Department of Biological and Environmental Sciences](http://bioenv.gu.se/), University of Gothenburg. Also teaching, mainly UNIX and phylogenetics. 
+I do bioinformatics in the [CeMEB](http://www.cemeb.science.gu.se/?languageId=100001&disableRedirect=true&returnUrl=http%3A%2F%2Fwww.cemeb.science.gu.se%2Fcemeb_sv%2F) research platform at the [Department of Biological and Environmental Sciences](http://bioenv.gu.se/english/?languageId=100001&disableRedirect=true&returnUrl=http%3A%2F%2Fbioenv.gu.se%2F), University of Gothenburg. Also teaching, mainly UNIX and phylogenetics. 
 
 ### More Information
 
