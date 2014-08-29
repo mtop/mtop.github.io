@@ -17,7 +17,11 @@ The file system will be automatically mounted as "Read only" which is probably n
  sudo umount /dev/disk1s1   
  ```
 
-- Create a mount point in your file system using the command "mkdir /Volumes/USB".
+- Create a mount point in your file system using the command: 
+
+```
+mkdir /Volumes/USB
+```
 
 The mount point is a directory that will contain all the files from the mounted file system. In this example I'm using /Volumes/USB, but the mount point can be anywhere you'd like.  
 	   
