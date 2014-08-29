@@ -28,7 +28,7 @@ The mount point is a directory that will contain all the files from the mounted 
 - Mount the external file system on "/Volumes/USB" using the command: 
 
 ```
-fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
+sudo fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
 ```
 
 The "-o force" part of the command is what makes the file system mount in Read and Write mode.  
