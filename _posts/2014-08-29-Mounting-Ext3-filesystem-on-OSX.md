@@ -14,7 +14,7 @@ Mounting a Ext3 file system (comonly used by GNU/Linux systems) from a USB-drive
 The file system will be automatically mounted as "Read only" which is probably not what you want. On my system it shows up as "disk1s1", so we'll make a note of that and then unmount the partition (click the littler symbol next to the name in finder, or run the command:
  
  ```
- sudo umount /dev/disk1s1").   
+ sudo umount /dev/disk1s1   
  ```
 
 - Create a mount point in your file system using the command "mkdir /Volumes/USB".
@@ -24,7 +24,7 @@ The mount point is a directory that will contain all the files from the mounted 
 - Mount the external file system on "/Volumes/USB" using the command: 
 
 ```
-"fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
+fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
 ```
 
 The "-o force" part of the command is what makes the file system mount in Read and Write mode.  
