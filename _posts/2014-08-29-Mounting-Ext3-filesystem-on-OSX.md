@@ -34,3 +34,8 @@ sudo fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
 The "-o force" part of the command is what makes the file system mount in Read and Write mode.  
 
 And that is it. 
+
+-----------------
+
+UPDATE
+I managed to write to the mounted file system, but not read from it afterwards (neither OSX nor Debian did see the files moved to the external hard drive). To be continued ...
