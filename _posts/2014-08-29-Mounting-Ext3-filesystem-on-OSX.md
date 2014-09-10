@@ -33,6 +33,12 @@ sudo fuse-ext2 -o force /dev/disk1s1 /Volumes/USB
 
 The "-o force" part of the command is what makes the file system mount in Read and Write mode.  
 
+Finally you can unmount the filesystem using this command:
+
+```
+sudo umount /dev/disk1s1
+```
+
 And that is it. 
 
 -----------------
